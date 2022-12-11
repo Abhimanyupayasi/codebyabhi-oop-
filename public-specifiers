@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+class item {
+    public:
+    int codeno;
+    float price;
+    int qty;
+    
+};
+
+
+int main()
+{
+    item one;
+    one.codeno = 123;
+    one.price = 123.45;
+    one.qty= 150;
+    cout<<"\n codeno     = "<<one.codeno;
+    cout<<"\n price      = "<<one.price;
+    cout<<"\n quantity   = "<<one.qty;
+
+    return 0;
+}#include <iostream>
+
+using namespace std;
+class item {
+    public:
+    int codeno;
+    float price;
+    int qty;
+    
+};
+
+
+int main()
+{
+    item one;
+    one.codeno = 123;
+    one.price = 123.45;
+    one.qty= 150;
+    cout<<"\n codeno     = "<<one.codeno;
+    cout<<"\n price      = "<<one.price;
+    cout<<"\n quantity   = "<<one.qty;
+
+    return 0;
+}
