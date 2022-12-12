@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+class item
+{
+private:
+  int codeno;
+  float price;
+  int qty;
+
+public:
+  void display ()
+  {
+    codeno = 123;
+    price = 123.45;
+    qty = 150;
+
+    cout << "\n codeno   " << codeno;
+    cout << "\n price    " << price;
+    cout << "\n quantity " << qty;
+
+  }
+};
+
+int
+main ()
+{
+  item one;
+  one.display ();
+
+
+  return 0;
+}
