@@ -1,0 +1,38 @@
+include <iostream>
+
+using namespace std;
+class employee
+{
+private:
+  int eno;
+  char ename[20];
+  float esal;
+
+  void readvalue ()
+  {
+    cout << "\n Enter employee no  :";
+    cin >> eno;
+    cout << "\n enter name         :";
+    cin >> ename;
+    cout << "\n enter salary       :";
+    cin >> esal;
+
+  }
+public:
+  void display()
+  {
+    readvalue ();
+    cout << "\n name   " << ename;
+    cout << "\n number " << eno;
+    cout << "\n salary " << esal;
+  }
+};
+
+int
+main ()
+{
+  employee e1;
+  e1.display();
+
+  return 0;
+}
