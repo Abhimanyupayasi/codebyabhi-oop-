@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+class A
+{
+public:
+  class B
+  {
+  private:
+    int a, b;
+  public:
+    void getdata ()
+    {
+      cout << "enter value of a&b :" << endl;
+      cin >> a >> b;
+
+
+    }
+    void putdata ()
+    {
+
+      cout << "a =" << a << endl << "b =" << b;
+
+
+    }
+
+
+  };
+};
+
+int
+main ()
+{
+  // cout<<"Hello World";
+  cout << "nested classes in c++" << endl;
+  A::B obj;
+  obj.getdata ();
+  obj.putdata ();
+
+  return 0;
+}
